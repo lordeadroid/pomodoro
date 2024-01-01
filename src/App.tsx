@@ -1,16 +1,8 @@
-import { createUseStyles } from "react-jss";
-
-const useStyles = createUseStyles({
-  page: {
-    color: "red",
-  },
-});
+import "./App.css";
 
 const App = (): React.JSX.Element => {
-  const classes = useStyles();
-
   return (
-    <div className={classes.page}>
+    <div>
       <h1>Pomodoro</h1>
     </div>
   );
